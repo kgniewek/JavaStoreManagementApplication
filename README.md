@@ -13,11 +13,6 @@ The development of this application was a collaborative effort among three team 
 - **PostgreSQL**: Backend database for storing item data.
 - **Lombok**: To reduce boilerplate code in Java applications.
 
-### Project Structure
-- `build.gradle`: Contains all the project dependencies and plugins.
-- `gradlew`, `gradlew.bat`: Gradle wrapper scripts for building the project without requiring installed Gradle.
-- `gradle/wrapper/gradle-wrapper.jar`, `gradle-wrapper.properties`: Ensure consistent builds across all environments.
-
 ### Source Code Files
 - `src/main/java/store/StoreApplication.java`: Main entry point of the application.
 - `src/main/java/store/model/DataHandler.java`: Handles all data operations such as fetching, inserting, and updating items.
@@ -43,3 +38,48 @@ The development of this application was a collaborative effort among three team 
 
 ### Conclusion
 This project not only enhanced our technical skills but also improved our ability to work effectively as part of a team. It culminated in a functional Java application that can be used as a reference for future projects.
+
+### Project Structure
+
+- `build.gradle`: Contains all the project dependencies and plugins.
+- `gradlew`, `gradlew.bat`: Gradle wrapper scripts for building the project without requiring installed Gradle.
+- `gradle/wrapper/gradle-wrapper.jar`, `gradle-wrapper.properties`: Ensure consistent builds across all environments.
+
+- 📁 **root**
+  - `build.gradle`
+  - `gradlew`
+  - `gradlew.bat`
+  - `README.md`
+  - `settings.gradle`
+  - 📁 **gradle**
+    - 📁 **wrapper**
+      - `gradle-wrapper.jar`
+      - `gradle-wrapper.properties`
+  - 📁 **src**
+    - 📁 **main**
+      - 📁 **java**
+        - 📁 **store**
+          - `CustomEvent.java`
+          - `StoreApplication.java`
+          - 📁 **create**
+            - `CreateBottomPane.java`
+            - `CreateInputPane.java`
+            - `CreatePane.java`
+            - `CreateScene.java`
+          - 📁 **edit**
+            - `EditBottomPane.java`
+            - `EditInputPane.java`
+            - `EditPane.java`
+            - `EditScene.java`
+          - 📁 **model**
+            - `DataHandler.java`
+            - `Item.java`
+          - 📁 **overview**
+            - `OverviewLeftPane.java`
+            - `OverviewPane.java`
+            - `OverviewScene.java`
+            - `OverviewTableView.java`
+      - 📁 **resources**
+    - 📁 **test**
+      - 📁 **java**
+      - 📁 **resources**
