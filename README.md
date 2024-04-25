@@ -45,6 +45,7 @@ This project not only enhanced our technical skills but also improved our abilit
 - `gradlew`, `gradlew.bat`: Gradle wrapper scripts for building the project without requiring installed Gradle.
 - `gradle/wrapper/gradle-wrapper.jar`, `gradle-wrapper.properties`: Ensure consistent builds across all environments.
 
+Files:
 - 📁 **root**
   - `build.gradle`
   - `gradlew`
